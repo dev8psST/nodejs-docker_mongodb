@@ -1,0 +1,21 @@
+*after installed nodejs16 with npm8 and docker, docker-compose, mongo-client
+
+    > ./nodesource_setup.sh //the setup script for nodejs-16
+
+*Pull MongoDB image
+    > docker pull mongo:latest
+*cd Check image
+    > docker images
+*Create init-mongo.js setup user, passwd, db_name, role
+*Create docker-compose.yml
+*Run docker-compose.yml
+    > docker-compose up -d
+*mongo is work
+*prepair node for work with mongo
+    > mkdir mongotest
+    > npm init --y
+    > npm install --save mongodb
+*in a folder stored files which are need for find insert create in mongo etc
+  
+
+
